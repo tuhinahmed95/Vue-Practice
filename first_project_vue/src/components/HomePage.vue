@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>HomePage Component</h1>
+    <h2>HomePage Component</h2>
   </div>
 </template>
 
@@ -9,3 +9,10 @@ export default {
   name: 'HomePage'
 }
 </script>
+
+
+<style>
+h2{ 
+  color: green;
+}
+</style>

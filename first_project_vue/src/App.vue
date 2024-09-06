@@ -2,6 +2,8 @@
   <div id="app">
     <HelloWorld msg="Welcome to My First Vue Project" />
     <HomePage />
+    <FirstPage/>
+    <SecondPage/>
   </div>
 </template>
 
@@ -9,13 +11,15 @@
 import FirstPage from './components/FirstPage.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import HomePage from './components/HomePage.vue';
+import SecondPage from './components/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     HomePage,
-    FirstPage
+    FirstPage,
+    SecondPage,
   }
 }
 </script>
