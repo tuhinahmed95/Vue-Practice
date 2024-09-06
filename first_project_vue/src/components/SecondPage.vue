@@ -3,8 +3,10 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 
-export default  {
-        name:'SecondPage'
-    }
+export default defineComponent({
+   name:'SecondPage'
+})
 </script>
+
