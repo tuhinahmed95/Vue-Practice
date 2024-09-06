@@ -9,21 +9,22 @@ export default {
     name: 'HomePage',
     data (){ 
         return { 
-            email: 'tuhin@gmail.com',
-            phone: '0175587876'
+            email: 'tuhin@gmail.com',  // এখানে ইমেইল ঠিকানা সংরক্ষিত
+            phone: '0175587876'         // এখানে ফোন নম্বর সংরক্ষিত
         }
     },
-    methods: {  // methods আলাদা সেকশনে রাখা হয়েছে
+    methods: {  
         getName() {
-            return "Tuhin Ahmed";
+            return "Tuhin Ahmed";       // ফাংশনটি নাম রিটার্ন করছে
         }
     }
 }
 </script>
 
-
 <style scoped>
-h3{ 
-    color: green;
+h3 { 
+    color: green; 
+    align-items: center;
+
 }
 </style>
