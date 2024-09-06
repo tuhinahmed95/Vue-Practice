@@ -6,9 +6,12 @@
     <h3>Name : {{ getName("Tasrif") }}</h3>
     <h3>All : {{ getData().name }}, {{ getData().email }}</h3>
     <h3>PhoneNumber : {{ getPhone().phoneNumber }}</h3>
+   <div class="div2"> 
     <button v-on:click="test()">Click</button>
     <button v-on:dblclick="test('button 2 is clicked')">Click 2</button>
     <h2>{{ count }}</h2>
+    <input type="text" v-model="count">
+   </div>
 </div>
 </template>
 
@@ -38,8 +41,8 @@ export default {
             }
         },
       
-        test(message) { 
-            console.log(message); 
+        test() { 
+            
             this.count=this.count+1 ; 
         }
       
@@ -55,7 +58,14 @@ export default {
     align-items: center;
     border: 1px solid black;
     padding-left: 20px;
+    padding-bottom: 30px;
     
+}
+
+.div2{ 
+    display: inline-block;
+    border: 3px solid goldenrod;
+    padding: 50px;
 }
 
 
