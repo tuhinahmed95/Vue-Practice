@@ -1,18 +1,18 @@
 <template>
-    <h1>Home Page</h1>
+    <h3>This is the Home Page</h3>
 </template>
 
-<script> 
 
-export default { 
-    name: 'HomePage'
+<script>
+export default {
+    name: 'HomePage',
+    data (){ 
+        return{ 
+            email: 'tuhin@gmail.com',
+
+        }
+    }
+    
 }
 </script>
 
-<style scoped>
-h1{ 
-    color: green;
-    text-align: center;
-    margin: 50px;
-}
-</style>
