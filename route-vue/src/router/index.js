@@ -31,7 +31,7 @@ const routes =[
 
 // create the router instance and pass the 'route' option
 const router = createRouter({ 
-  // provide the history impemention to use
+  // provide the history implemention to use
   history:createWebHistory(import.meta.env.BASE_URL),
   routes: routes
 })
