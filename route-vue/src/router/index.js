@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory,  } from "vue-router";
 // define route component by importing
-import HomeView from "@/views/HomeView.vue";
-import AboutView from "@/views/AboutView.vue";
+import HomeView from "@/viewss/HomeView.vue";
+import AboutView from "@/viewss/AboutView.vue";
 import ContactView from "@/viewss/ContactView.vue";
 import PostView from "@/viewss/PostView.vue";
 
@@ -30,10 +30,10 @@ const routes =[
 ]
 
 // create the router instance and pass the 'route' option
-const route = createRouter({ 
+const router = createRouter({ 
   // provide the history impemention to use
   history:createWebHistory(import.meta.env.BASE_URL),
   routes: routes
 })
 
-export default route
+export default router
