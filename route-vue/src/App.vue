@@ -17,12 +17,14 @@ import {RouterView, RouterLink  } from "vue-router";
 nav{ 
   width: 100%;
   font-size: 30px;
+  border-bottom: 3px solid red;
 }
 nav a{ 
   display: inline-block;
   padding: 10px;
   text-decoration: none;
   margin-top: 10px;
+  border-radius: 5px;
 }
 nav a.router-link-exact-active{ 
   background-color: coral;

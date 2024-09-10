@@ -2,7 +2,7 @@
 
 </script>
 <template> 
-<h1>Post Page</h1>
+<h1>Posts Page - All Posts</h1>
 <h3>Post 1</h3>
 <h3>Post 2</h3>
 <h3>Post 3</h3>
