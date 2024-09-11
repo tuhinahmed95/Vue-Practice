@@ -4,6 +4,7 @@ import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
 import ContactView from "@/views/ContactView.vue";
 import PostView from "@/views/PostView.vue";
+import BlogPage from "@/views/PostView.vue";
 
 // define routes,Each route should map to a component
 const routes =[ 
@@ -26,6 +27,11 @@ const routes =[
     path:'/post',
     name:'post',
     component:PostView
+  },
+  { 
+    path:'/blog',
+    name:'blog',
+    component:BlogPage
   }
 ]
 
