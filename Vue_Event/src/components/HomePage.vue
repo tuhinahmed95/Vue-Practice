@@ -5,9 +5,7 @@
 <script> 
 export default{ 
     name: 'HomePage',
-    data(){ 
-        return "Tuhin"
-    }
+   
 }
 
 </script>
