@@ -1,5 +1,14 @@
 <template>
-  <h1>hello</h1>
+  <HomePage/>
 </template>
 
 <script> 
+import HomePage from './components/HomePage.vue';
+export default{ 
+      name: 'App',
+      components:{ 
+        HomePage
+      }
+}
+
+</script>
