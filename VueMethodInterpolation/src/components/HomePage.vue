@@ -5,6 +5,7 @@
     <h2>Phone : {{ phone }}</h2>
     <p>Name : {{ GetName('Rafia,Anika,Faria,Sunna Apa') }}</p>
     <h6>Age : {{ getAge('27') }}</h6>
+    <h3>Data : {{ getData('This is data') }}</h3>
 </template>
 
 <script> 
@@ -22,6 +23,9 @@ export default {
         },
         getAge(age){ 
             return age;
+        },
+        getData(data){ 
+            return data;
         }
     }
    
