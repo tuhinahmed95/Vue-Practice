@@ -7,3 +7,9 @@ export default {
     name: 'BlogPage'
 }
 </script>
+
+<style scoped>
+h3{ 
+    color: gray;
+}
+</style>
