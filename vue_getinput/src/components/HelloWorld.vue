@@ -3,6 +3,10 @@
   <input type="text" placeholder="enter your email" v-model="email"><br><br>
   <input type="text" placeholder="enter your password" v-model="password"><br><br>
   <button type="button" v-on:click="getData">Get Values</button>
+
+  <h1 v-if="show">If Condition</h1>
+  <h1 v-else>Else Condition</h1>
+  <button v-on:click="show=!show">Toggle</button>
 </template>
 
 <script> 
@@ -12,6 +16,7 @@ export default {
     return{ 
       email: null,
       password:null,
+      show:true
     }
   },
   methods:{ 
