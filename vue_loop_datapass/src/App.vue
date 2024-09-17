@@ -21,14 +21,15 @@ export default {
             user: {
                 name: 'Alex',
                 email: 'alex@gmail.com'
-            },
-        },
-        methods: {
+            }
+        }
+       
+    },
+    methods: {
             getData() {
-              colsole.log('function is called');
+              console.log('function is called');
                
             }
         }
-    }
 }
 </script>
