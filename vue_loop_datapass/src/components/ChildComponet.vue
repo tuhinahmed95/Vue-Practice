@@ -2,7 +2,7 @@
 <h1>Data pass From ParentComponent to ChildComponent</h1>
 <h3>{{ name }}</h3>
 <h4>{{ user.name }}</h4>
-<!-- <button v-on:click="getData()">Call F</button> -->
+<button v-on:click="getData()">Call F</button>
 </template>
 
 <script>
@@ -11,7 +11,7 @@
      props: {
          name: String,
          user: Object,
-        //  getData: Function
+         getData: Function
      }
  }
 </script>
