@@ -3,6 +3,7 @@ import AboutSection from './components/AboutSection.vue';
 import BlogPage from './components/BlogPage.vue';
 import ContactPage from './components/ContactPage.vue';
 import HomePage from './components/HomePage.vue';
+import TwoBinding from './components/TwoBinding.vue';
 
  
 export default { 
@@ -11,7 +12,8 @@ export default {
         HomePage,
         ContactPage,
         BlogPage,
-        AboutSection
+        AboutSection,
+        TwoBinding
     }
 }
 </script>
@@ -21,4 +23,5 @@ export default {
     <ContactPage />
     <BlogPage />
     <AboutSection />
+    <TwoBinding />
 </template>
