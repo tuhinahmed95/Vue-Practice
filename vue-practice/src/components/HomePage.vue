@@ -37,7 +37,7 @@ export default {
         },
         getPhone(){ 
             return{ 
-                phoneNumber: '888999',
+                phoneNumber: '999999',
             }
         },
       
